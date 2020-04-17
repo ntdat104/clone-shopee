@@ -1,0 +1,136 @@
+@font-face{
+    src: url(./font/Roboto/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.header{
+    background: rgb(245,61,45);
+    background: linear-gradient(180deg, rgba(245,61,45,1) 0%, rgba(255,102,51,1) 100%);
+}
+
+.header-container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.header-container-contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.header-container-contact-left a{
+    padding-right: 5px;
+    border-right: 2px solid hsla(0,0%,100%,.22);
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.header-container-contact-left a:hover{
+    color: hsla(0,0%,100%,.7);
+}
+
+.header-container-contact-left span{
+    font-size: 12px;
+    color: #fff;
+}
+.header-container-contact-left span a{
+    border: none;
+    padding: 0;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.header-container-contact-left span a:hover{
+    color: #fff;
+}
+
+.header-container-contact-right a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.header-container-contact-right a:last-child{
+    border-left: 2px solid hsla(0,0%,100%,.22);
+}
+
+.header-container-contact-right a i{
+    font-size: 12px;
+}
+
+.header-container-contact-right a:hover{
+    color: hsla(0,0%,100%,.7);
+}
+
+.header-container-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.header-container-search h1{
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.header-container-search-input{
+    width: 800px;
+}
+
+.header-container-search-input-up{
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.header-container-search-input-up input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.header-container-search-input-up button{
+    position: absolute;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    right: 5px;
+    padding: 7px 20px;
+    background: rgb(245,61,45);
+    background: linear-gradient(180deg, rgba(245,61,45,1) 0%, rgba(255,102,51,1) 100%);
+}
+
+.header-container-search-input-up button i{
+    color: #fff;
+}
+
+.header-container-search-input-down{
+    width: 100%;
+}
+
+.header-container-search-input-down a{
+    color: #fff;
+    font-size: 12px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+#shopping{
+    width: 100px;
+    color: #fff;
+    font-size: 30px;
+}
